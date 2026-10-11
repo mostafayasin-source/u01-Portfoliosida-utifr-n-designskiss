@@ -5,7 +5,7 @@ Det här projektet är en responsiv portfoliosida som jag har byggt från grunde
 ## Länkar
 
 - GitHub-repository: <https://github.com/mostafayasin-source/u01-Portfoliosida-utifr-n-designskiss>
-- Publicerad webbplats: **Lägg till länken här efter publicering**
+- Publicerad webbplats: <https://mostafayasin-source.github.io/u01-Portfoliosida-utifr-n-designskiss/>
 
 ## Reflektion
 
@@ -32,8 +32,7 @@ Webbplatsen är byggd mobile first. Vid minst `900px` ändras headern från en v
 Jag har använt korrekta rubriknivåer, semantiska landmärken och `alt`-texter på bilder. Menyknappen har `type="button"` och ett `aria-label` som beskriver dess framtida funktion. Menyn ska göras interaktiv med JavaScript i nästa uppgift, så jag har inte lagt till en låtsasfunktion i den här HTML- och CSS-versionen.
 
 Jag lade till `:focus-visible` för länkar och knappar och testade navigationen med Tab-tangenten. Fokusmarkeringen syns tydligt utan att vara beroende av muspekaren. Jag ändrade också telefonlänkens `href` till ett format utan mellanslag så att `tel:`-länken fungerar bättre.
-
-Det som återstår före den slutliga inlämningen är att validera alla HTML-sidor med W3C Validator och testa sidan i Chrome, Firefox och Safari. Eventuella fel från dessa tester ska rättas och resultatet dokumenteras här.
+Jag validerade samtliga HTML-sidor med W3C Validator och fick 0 fel och varningar. Webbplatsen testades även i Chrome och Firefox, där sidorna, bilderna, navigationen, den responsiva layouten och fokusmarkeringen fungerade som förväntat. Testning i Safari återstår eftersom Safari inte finns i en modern version för Windows.
 
 ### Användbarhet och UI
 
@@ -49,9 +48,10 @@ Med mer tid skulle jag ersätta återstående platshållarlänkar med riktiga pr
 
 Jag använde Codex som stöd för att granska min HTML och CSS, förstå varför vissa problem uppstod och få förslag på mindre förbättringar. Ett exempel var förklaringen av varför containerns första breddberäkning inte var lämplig och hur en mobile-first breakpoint kan väljas utifrån innehållet. Jag skrev och ändrade koden själv, testade varje steg i webbläsaren och anpassade förslagen till projektet. Jag använde också Git efter varje logisk förbättring så att ändringarna blev tydliga i historiken.
 
-## Återstående slutkontroll
+## Slutkontroll
 
-- [ ] Lägg in länken till den publicerade webbplatsen.
-- [ ] Validera samtliga HTML-sidor med 0 fel.
-- [ ] Testa i Chrome, Firefox och Safari.
-- [ ] Kontrollera tangentbordsnavigation och synlig fokusmarkering en sista gång.
+- [x] Länken till den publicerade webbplatsen är tillagd.
+- [x] Samtliga HTML-sidor är validerade med 0 fel och varningar.
+- [x] Webbplatsen är testad i Chrome och Firefox.
+- [ ] Webbplatsen återstår att testa i Safari.
+- [x] Tangentbordsnavigation och synlig fokusmarkering är kontrollerade.
