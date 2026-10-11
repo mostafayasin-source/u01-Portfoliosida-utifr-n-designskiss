@@ -22,6 +22,13 @@ body {
   color: var(--color-text);
   background-color: var(--color-background);
 }
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--color-gradient-start);
+  outline-offset: 4px;
+  border-radius: 4px;
+}
 .container {
   width: 100%;
   max-width: 1600px;
