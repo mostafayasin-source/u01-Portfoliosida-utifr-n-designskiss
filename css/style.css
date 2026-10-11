@@ -21,10 +21,10 @@ body {
 }
 
 .container {
-  width: calc(600 / 1600 * 100%);
+  width: 100%;
   max-width: 1600px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding-inline: 30px;
   background-color: white;
 }
 
