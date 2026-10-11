@@ -102,13 +102,36 @@ header {
 }
 
 .hero {
-  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 4rem 1.25rem;
+
+  h1 {
+    margin: 0;
+    color: var(--color-heading);
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+
+  strong {
+    background: linear-gradient(
+      90deg,
+      var(--color-gradient-start),
+      var(--color-gradient-end)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
 
   img {
-    width: 60%;
+    width: 70%;
+    max-width: 300px;
     height: auto;
+    align-self: center;
     border-radius: 50%;
-    border: 2px solid blue;
+    border: 2px solid var(--color-gradient-start);
   }
 }
 
@@ -280,5 +303,26 @@ footer {
 
   .socialmedia-links {
     margin: 0;
+  }
+
+  .hero {
+    min-height: 650px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    padding-block: 5rem;
+
+    h1 {
+      max-width: 650px;
+      font-size: 3.5rem;
+      line-height: 1.3;
+    }
+
+    img {
+      width: 350px;
+      max-width: 40%;
+      flex-shrink: 0;
+    }
   }
 }
