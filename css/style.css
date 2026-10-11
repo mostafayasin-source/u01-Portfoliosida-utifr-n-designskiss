@@ -227,6 +227,10 @@ footer {
   }
 }
 
+/**************
+/***************
+/***************/
+
 .contact {
   text-align: center;
   padding: 20px;
@@ -245,5 +249,36 @@ footer {
 
   a:hover {
     color: blue;
+  }
+}
+
+/**************
+/***************
+/***************/
+
+@media (min-width: 900px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 24px;
+  }
+
+  .header-top {
+    padding: 0;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  .pages-links {
+    flex-direction: row;
+    gap: 32px;
+    padding: 0;
+  }
+
+  .socialmedia-links {
+    margin: 0;
   }
 }
